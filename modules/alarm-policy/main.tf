@@ -120,4 +120,7 @@ resource "tencentcloud_monitor_policy_binding_object" "this" {
     dimensions_json = each.value.dimensions_json
     region           = each.value.region
   }
+  lifecycle {
+    ignore_changes = [dimensions]
+  }
 }
