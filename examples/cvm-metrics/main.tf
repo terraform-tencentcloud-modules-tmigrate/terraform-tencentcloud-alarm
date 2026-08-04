@@ -20,7 +20,8 @@ data "tencentcloud_user_info" "current" {}
 
 locals {
   instance_ids = {
-    "cvm-001" = "ins-xxxxxxxx" # 替换为实际 instance id
+    "cvm-001" = "ins-i8au03jb", # 替换为实际 instance id
+    "cvm-002" = "ins-98a9a1yf",
   }
 }
 
@@ -89,20 +90,17 @@ module "alarm_policy" {
         }
       ]
 
-      group_by = ["vm_uuid"]
-
-    #   filter = [
-    #     {
-    #       type = "DIM"
-    #       dimensions = [
-    #         for k, v in local.instance_ids :
-    #         { name = "vm_uuid", value = v }
-    #       ]
-    #     }
-    #   ]
-
       # 引用通知模板（通过 notice_keys 自动解析 ID）
       notice_keys = ["ops"]
+
+      # 绑定 CVM 实例到告警策略
+      # dimensions_json 是 JSON 字符串，CVM 用 {"unInstanceId":"ins-xxx"}
+      binding_objects = [
+        for k, v in local.instance_ids : {
+          dimensions_json = jsonencode({ unInstanceId = v })
+          region           = "ap-jakarta"
+        }
+      ]
     }
   }
 }

@@ -91,3 +91,33 @@ resource "tencentcloud_monitor_alarm_policy" "this" {
     }
   }
 }
+
+# ─── 绑定实例到告警策略 ───
+# 每个 policy 可以通过 binding_objects 绑定多个实例
+# binding_objects 是 list(object)，每个元素含 dimensions_json 和 region
+
+locals {
+  # 展开成扁平的列表，用 dimensions_json 做 key（唯一标识一个绑定对象）
+  binding_objects = flatten([
+    for pk, p in local.policies : [
+      for dim in try(p.binding_objects, []) : {
+        policy_key       = pk
+        dimensions_json  = dim.dimensions_json
+        region           = try(dim.region, null)
+      }
+    ]
+  ])
+}
+
+resource "tencentcloud_monitor_policy_binding_object" "this" {
+  for_each = {
+    for b in local.binding_objects : "${b.policy_key}-${b.dimensions_json}" => b
+  }
+
+  policy_id = tencentcloud_monitor_alarm_policy.this[each.value.policy_key].id
+
+  dimensions {
+    dimensions_json = each.value.dimensions_json
+    region           = each.value.region
+  }
+}
