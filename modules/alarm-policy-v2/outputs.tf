@@ -1,14 +1,9 @@
-output "policy_ids" {
-  value       = { for k, v in tencentcloud_monitor_alarm_policy.this : k => v.id }
-  description = "Map of policy IDs keyed by logical name."
+output "policy_id" {
+  value       = local.policy_id
+  description = "The effective alarm policy ID (created by this module, or the existing policy_id passed in). Feed this into the alarm-policy-binding module."
 }
 
-output "policy_names" {
-  value       = { for k, v in tencentcloud_monitor_alarm_policy.this : k => v.policy_name }
-  description = "Map of policy names keyed by logical name."
-}
-
-output "binding_object_ids" {
-  value       = { for k, v in tencentcloud_monitor_policy_binding_object.this : k => v.id }
-  description = "Map of binding object IDs keyed by policy logical name (one binding resource per policy, id = policy_id)."
+output "policy_name" {
+  value       = local.create_policy ? tencentcloud_monitor_alarm_policy.this[0].policy_name : null
+  description = "Policy name. Only set when the policy is created by this module (null when reusing an existing policy)."
 }

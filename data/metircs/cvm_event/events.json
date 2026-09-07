@@ -1,0 +1,305 @@
+{
+    "Events": [
+        {
+            "EventName": "disk_readonly",
+            "Description": "磁盘只读",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "guest_core_error",
+            "Description": "内核故障",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "guest_oom",
+            "Description": "内存oom",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "ping_unreachable",
+            "Description": "ping不可达",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "guest_reboot",
+            "Description": "机器重启",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm_packet_droped_by_qos_wan_out_bandwidth",
+            "Description": "外网出带宽超限导致丢包",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm_packet_droped_by_qos_connection_session",
+            "Description": "连接数超限导致丢包",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "nvme_error",
+            "Description": "子机nvme设备error",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "instance_restarting",
+            "Description": "实例计划重启（宿主机系统维护）",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "instance_restarted",
+            "Description": "实例已重启（宿主机系统错误）",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "nfct_table_full",
+            "Description": "连接跟踪表满",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "",
+            "Description": "",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceNetworkErrorCanceled",
+            "Description": "实例网络连接异常取消",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:CvmPacketDropedByQosConnectionSession",
+            "Description": "连接数超限导致丢包",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:GuestOom",
+            "Description": "内存oom",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRunningRisksExecuting",
+            "Description": "实例运行隐患处理中",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRunningAbnormallyExecuted",
+            "Description": "实例运行异常已完成",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceDiskErrorAvoided",
+            "Description": "实例硬盘异常避免",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRunningRisksExecuted",
+            "Description": "实例运行隐患已完成",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:GuestReboot",
+            "Description": "机器重启",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:PingUnreachable",
+            "Description": "ping不可达",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceNetworkErrorAvoided",
+            "Description": "实例网络连接异常避免",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRunningRisksAvoided",
+            "Description": "实例运行隐患避免",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:CloudEvent:MiniProgramCall",
+            "Description": "小程序操作事件（基于云审计投递）",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:CvmPacketDropedByQosWanOutBandwidth",
+            "Description": "外网出带宽超限导致丢包",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:DiskReadonly",
+            "Description": "磁盘只读",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceNetworkErrorExecuting",
+            "Description": "实例网络连接异常处理中",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:CloudEvent:ConsoleCall",
+            "Description": "控制台操作事件（基于云审计投递）",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceNetworkErrorInquiring",
+            "Description": "实例网络连接异常待授权",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRunningAbnormallyInquiring",
+            "Description": "实例运行异常待授权",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceDiskErrorExecuted",
+            "Description": "实例硬盘异常已完成",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceDiskErrorExecuting",
+            "Description": "实例硬盘异常处理中",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRunningAbnormallyCanceled",
+            "Description": "实例运行异常取消",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:GuestCoreError",
+            "Description": "内核故障",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRunningRisksInquiring",
+            "Description": "实例运行隐患待授权",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRunningAbnormallyAvoided",
+            "Description": "实例运行异常避免",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRestarting",
+            "Description": "实例计划重启（宿主机系统维护）",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:NfctTableFull",
+            "Description": "连接跟踪表满",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:NvmeError",
+            "Description": "子机nvme设备error",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRunningAbnormallyExecuting",
+            "Description": "实例运行异常处理中",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:CloudEvent:ApiCall",
+            "Description": "云API操作事件（基于云审计投递）",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceDiskErrorInquiring",
+            "Description": "实例硬盘异常待授权",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceDiskErrorCanceled",
+            "Description": "实例硬盘异常取消",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRunningRisksCanceled",
+            "Description": "实例运行隐患取消",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceRestarted",
+            "Description": "实例已重启（宿主机系统错误）",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceNetworkErrorExecuted",
+            "Description": "实例网络连接异常已完成",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:ErrorCfgFstab",
+            "Description": "子机fstab配置异常",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:ErrorCfgDNS",
+            "Description": "子机dns配置异常",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:ExecStart",
+            "Description": "云服务器变更执行开始事件",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:RDMASwitchAbnormal",
+            "Description": "实例的RDMA交换机异常",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:ExecEnd",
+            "Description": "云服务器变更执行结束事件",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:RollbackStart",
+            "Description": "云服务器变更回滚开始事件",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:RollbackEnd",
+            "Description": "云服务器变更回滚结束事件",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:ReleaseSuccess",
+            "Description": "云服务器变更发布成功",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceNetworkJitterExecuted",
+            "Description": "实例网络抖动已完成",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:OperationEvent:InstancePowerOff",
+            "Description": "云服务器关机事件",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:OperationEvent:InstancePowerOn",
+            "Description": "云服务器开机事件",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "DiskReadonly",
+            "Description": "",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:CvmPacketDropedByQ",
+            "Description": "",
+            "Namespace": "cvm_device"
+        },
+        {
+            "EventName": "cvm:ErrorEvent:InstanceNetworkJitterExecuting",
+            "Description": "实例网络抖动处理中",
+            "Namespace": "cvm_device"
+        }
+    ],
+    "RequestId": "d26b403d-0bd8-4b77-b4bb-ea396e5bef45"
+}
