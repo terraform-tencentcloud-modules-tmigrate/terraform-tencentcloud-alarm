@@ -54,6 +54,14 @@ locals {
         }
       ]
 
+      # 宕机/失联事件告警（与指标 conditions 共存于同一 policy，无需阈值）
+      # ping_unreachable：云监控探测实例不可达（宕机/断网/OS 卡死）
+      # cvm:ErrorEvent:PingUnreachable：同一事件的新体系命名（带前缀），测试两者行为
+      event_conditions = [
+        { metric_name = "ping_unreachable" },
+        { metric_name = "cvm:ErrorEvent:PingUnreachable" },
+      ]
+
       # 引用通知模板（通过 notice_keys 自动解析 ID）
       notice_keys = ["ops"]
 

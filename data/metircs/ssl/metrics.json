@@ -1,0 +1,51 @@
+{
+    "MetricSet": [
+        {
+            "Namespace": "QCE/SSL",
+            "MetricName": "Expireday",
+            "Unit": "None",
+            "UnitCname": "None",
+            "Period": [
+                60,
+                300,
+                3600
+            ],
+            "Periods": [
+                {
+                    "Period": "60",
+                    "StatType": [
+                        "first"
+                    ]
+                },
+                {
+                    "Period": "300",
+                    "StatType": [
+                        "first"
+                    ]
+                },
+                {
+                    "Period": "3600",
+                    "StatType": [
+                        "first"
+                    ]
+                }
+            ],
+            "Meaning": {
+                "En": "Expire Day",
+                "Zh": "到期天数"
+            },
+            "Dimensions": [
+                {
+                    "Dimensions": [
+                        "certid",
+                        "domain",
+                        "expiretime"
+                    ]
+                }
+            ],
+            "MetricCName": "到期天数",
+            "MetricEName": "expire_day"
+        }
+    ],
+    "RequestId": "60f787b5-bf42-4e64-bb79-387003525772"
+}

@@ -1,0 +1,25 @@
+{
+    "Events": [
+        {
+            "EventName": "redis:ErrorEvent:ServiceNotAvailable",
+            "Description": "服务不可用(1分钟粒度)",
+            "Namespace": "redisUuid"
+        },
+        {
+            "EventName": "redis:ErrorEvent:ReadonlyReplicaSwitched",
+            "Description": "只读副本故障切换(1分钟粒度)",
+            "Namespace": "redisUuid"
+        },
+        {
+            "EventName": "redis:ErrorEvent:ReadonlyReplicaNotAvailable",
+            "Description": "只读副本不可用(1分钟粒度)",
+            "Namespace": "redisUuid"
+        },
+        {
+            "EventName": "redis:ErrorEvent:MasterSlaveSwitched",
+            "Description": "主备切换(1分钟粒度)",
+            "Namespace": "redisUuid"
+        }
+    ],
+    "RequestId": "ebfe0fa5-3dcc-4b7c-bb35-e4e1daa5a208"
+}

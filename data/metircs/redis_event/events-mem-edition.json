@@ -1,0 +1,135 @@
+{
+    "Events": [
+        {
+            "EventName": "redis_master_slave_switched",
+            "Description": "主备切换",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis_readonly_replica_not_available",
+            "Description": "只读副本不可用",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis_readonly_replica_switched",
+            "Description": "只读副本故障切换",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis_service_not_available",
+            "Description": "服务不可用",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:SwitchToPrimaryInstance",
+            "Description": "灾备实例切换为主实例",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:RedisMasterSlaveSwitched",
+            "Description": "主备切换",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:RedisReadonlyReplicaSwitched",
+            "Description": "只读副本故障切换",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:IsolatePolarisServices",
+            "Description": "北极星服务隔离/解隔离",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:RedisServiceNotAvailable",
+            "Description": "服务不可用",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:ProxySwitched",
+            "Description": "Proxy故障切换",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:CloudEvent:MiniProgramCall",
+            "Description": "小程序操作事件（基于云审计投递）",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:RedisReadonlyReplicaNotAvailable",
+            "Description": "只读副本不可用",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:CloudEvent:ApiCall",
+            "Description": "云API操作事件（基于云审计投递）",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:CloudEvent:ConsoleCall",
+            "Description": "控制台操作事件（基于云审计投递）",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:ServerfailureInstanceMigration",
+            "Description": "母机常规维护触发的实例迁移",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:ExecStart",
+            "Description": "云数据库Redis变更执行开始事件",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:ExecEnd",
+            "Description": "云数据库Redis变更执行结束事件",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:RollbackStart",
+            "Description": "云数据库Redis变更回滚开始事件",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:RollbackEnd",
+            "Description": "云数据库Redis变更回滚结束事件",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:InstanceDestroy",
+            "Description": "实例已销毁",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:InstanceIsolated",
+            "Description": "实例已隔离\t",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "redis:ErrorEvent:RedisClusterHaRisk",
+            "Description": "集群写入流量过大存在主从断开隐患",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "主备切换",
+            "Description": "",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "服务不可用",
+            "Description": "",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "只读副本不可用",
+            "Description": "",
+            "Namespace": "redis_mem_edition"
+        },
+        {
+            "EventName": "只读副本故障切换",
+            "Description": "",
+            "Namespace": "redis_mem_edition"
+        }
+    ],
+    "RequestId": "4013e03f-063a-4ca1-9d96-912e5cade093"
+}
