@@ -1,0 +1,345 @@
+{
+    "Events": [
+        {
+            "EventName": "outofmemory",
+            "Description": "内存OOM",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "outofstorage",
+            "Description": "硬盘超限",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "switch",
+            "Description": "主从切换",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "roremove",
+            "Description": "只读实例剔除",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "backend_instance_migration",
+            "Description": "服务器故障导致实例迁移",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "auditclose",
+            "Description": "审计功能关闭",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "inst_rep_status",
+            "Description": "实例复制状态",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "proxy_node_removal",
+            "Description": "数据库代理挂载节点剔除",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "proxy_not_available",
+            "Description": "数据库代理异常",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:ProxyNodeRemoval",
+            "Description": "数据库代理挂载节点剔除",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:BackendInstanceMigration",
+            "Description": "服务器存在隐患导致实例迁移",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:CPUContraction",
+            "Description": "CPU性能回缩",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:ProxyNotAvailable",
+            "Description": "数据库代理异常",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:InstRepStatus",
+            "Description": "实例复制状态",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:CloudEvent:ApiCall",
+            "Description": "云API操作事件（基于云审计投递）",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:Roremove",
+            "Description": "只读实例剔除",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:MemoryUsedHigh",
+            "Description": "内存使用率过高",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:PlannedSwitch",
+            "Description": "计划内主备切换",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:CPUExpansionFailed",
+            "Description": "CPU性能扩容失败",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:CPUExpansion",
+            "Description": "CPU性能扩容",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:CloudEvent:ConsoleCall",
+            "Description": "控制台操作事件（基于云审计投递）",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:Outofmemory",
+            "Description": "内存OOM",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:Rebuild",
+            "Description": "异常故障导致实例计算资源重建",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:Switch",
+            "Description": "主从切换",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:CloudEvent:MiniProgramCall",
+            "Description": "小程序操作事件（基于云审计投递）",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:Outofstorage",
+            "Description": "实例只读（硬盘超限）",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:OverusedReadonlySet",
+            "Description": "磁盘使用超限锁定",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:OverusedReadWriteSet",
+            "Description": "实例解除锁定",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:OverusedPreReadonly",
+            "Description": "实例将被锁定",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:AuditLowRisk",
+            "Description": "数据库审计低风险",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:AuditMediumRisk",
+            "Description": "数据库审计中风险",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:AuditHighRisk",
+            "Description": "数据库审计高风险",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:SlaveNotAvailableRecovery",
+            "Description": "备节点服务故障恢复",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:SlaveNotAvailable",
+            "Description": "备节点服务故障",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:MasterNotAvailableRecovery",
+            "Description": "主节点服务故障恢复",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:MasterNotAvailable",
+            "Description": "主节点服务故障",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:InstHighLoad",
+            "Description": "数据库实例高负载",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:ExecStart",
+            "Description": "云数据库MySQL变更执行开始事件",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:ExecEnd",
+            "Description": "云数据库MySQL变更执行结束事件",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:RollbackStart",
+            "Description": "云数据库MySQL变更回滚开始事件",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:RollbackEnd",
+            "Description": "云数据库MySQL变更回滚结束事件",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:ReleaseSuccess",
+            "Description": "云数据库MySQL变更发布成功",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:ReleaseFail",
+            "Description": "云数据库MySQL变更发布失败",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:ReleaseCancel",
+            "Description": "云数据库MySQL变更发布取消",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:ReleaseApproveSuccess",
+            "Description": "云数据库MySQL变更审批成功",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:DiskOverUseError",
+            "Description": "数据库实例磁盘超限导致实例迁移",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:MasterHealthCheckError",
+            "Description": "主节点服务拨测异常",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:MasterHealthCheckRecovery",
+            "Description": "主节点服务拨测异常恢复",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:SlaveHealthCheckError",
+            "Description": "备节点服务拨测异常",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:SlaveHealthCheckRecovery",
+            "Description": "备节点服务拨测异常恢复",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:Restart",
+            "Description": "实例重启",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:RONodeExceptionRecovery",
+            "Description": "只读节点服务异常恢复",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:RONodeException",
+            "Description": "只读节点服务检测异常",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:RWNodeExceptionRecovery",
+            "Description": "读写节点服务异常恢复",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:RWNodeException",
+            "Description": "读写节点服务检测异常",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:RoNodeRepStatus",
+            "Description": "节点复制状态",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:ServerFailureNodeMigration",
+            "Description": "节点服务异常导致节点重建",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:SwitchBinlogPOS",
+            "Description": "主备切换位点信息",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:BackupFailed",
+            "Description": "实例备份失败",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:ExclusiveCrossNuma",
+            "Description": "实例跨NUMA",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "内存OOM",
+            "Description": "",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "硬盘超限",
+            "Description": "",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "主从切换",
+            "Description": "",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "只读实例剔除",
+            "Description": "",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "服务器故障导致实例迁移",
+            "Description": "",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "实例备份失败",
+            "Description": "",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "读写节点服务检测异常",
+            "Description": "",
+            "Namespace": "cdb_detail"
+        },
+        {
+            "EventName": "只读节点服务检测异常",
+            "Description": "",
+            "Namespace": "cdb_detail"
+        }
+    ],
+    "RequestId": "fe54ea8a-a7c8-4a1e-a222-11302cfa26d1"
+}

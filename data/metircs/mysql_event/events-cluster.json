@@ -1,0 +1,20 @@
+{
+    "Events": [
+        {
+            "EventName": "cdb:ErrorEvent:InstanceDeleted",
+            "Description": "实例删除\t",
+            "Namespace": "cdb_cluster"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:InstanceIsolated",
+            "Description": "实例隔离\t",
+            "Namespace": "cdb_cluster"
+        },
+        {
+            "EventName": "cdb:ErrorEvent:OverusedUnlockPreReadonly",
+            "Description": "实例预锁定解除",
+            "Namespace": "cdb_cluster"
+        }
+    ],
+    "RequestId": "a00554cb-3db2-467a-a3b6-84b344d99c63"
+}

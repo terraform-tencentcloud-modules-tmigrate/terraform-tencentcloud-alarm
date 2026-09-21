@@ -1,0 +1,115 @@
+{
+    "Events": [
+        {
+            "EventName": "connection_overlimit",
+            "Description": "连接数超限",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "instance_out_of_disk",
+            "Description": "磁盘空间已耗尽",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "node_cpu_abnormal",
+            "Description": "节点CPU异常",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "db_primary_switch",
+            "Description": "数据库主从切换",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:DbPrimarySwitch",
+            "Description": "数据库主从切换",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:CloudEvent:ApiCall",
+            "Description": "云API操作事件（基于云审计投递）",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:NodeCpuAbnormal",
+            "Description": "节点CPU异常",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:CloudEvent:MiniProgramCall",
+            "Description": "小程序操作事件（基于云审计投递）",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:CloudEvent:ConsoleCall",
+            "Description": "控制台操作事件（基于云审计投递）",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:ConnectionOverlimit",
+            "Description": "连接数超限",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:InstanceOutOfDisk",
+            "Description": "磁盘空间即将耗尽",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:SSLCertAboutToExpire",
+            "Description": "SSL证书即将过期",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:NodeOom",
+            "Description": "节点OOM",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:NodeReboot",
+            "Description": "节点重启",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:NodeAbnormal",
+            "Description": "节点状态异常",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:InstanceSyncStatus",
+            "Description": "只读/灾备同步状态异常",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:InstanceBackupTaskStatusAbnormal",
+            "Description": "实例备份任务状态异常",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:InstanceDeleted",
+            "Description": "实例销毁",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:InstanceIsolated",
+            "Description": "实例隔离",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:BackupFailed",
+            "Description": "备份失败",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:BackupStorageSizeExceed",
+            "Description": "备份超额告警",
+            "Namespace": "cmongo_instance"
+        },
+        {
+            "EventName": "mongodb:ErrorEvent:NotBackupLastPeriod",
+            "Description": "上一个备份周期未备份",
+            "Namespace": "cmongo_instance"
+        }
+    ],
+    "RequestId": "32270e43-667e-40c4-a793-a0b7d7816370"
+}
