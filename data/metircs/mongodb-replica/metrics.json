@@ -1,0 +1,293 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "CMONGO_REPLICA",
+            "MetricName": "CacheDirty",
+            "Description": "Cache脏数据百分比",
+            "Min": 0,
+            "Max": 100,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "%",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "CMONGO_REPLICA",
+            "MetricName": "CacheUsed",
+            "Description": "Cache使用百分比",
+            "Min": 0,
+            "Max": 100,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "%",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "CMONGO_REPLICA",
+            "MetricName": "ReplicaDiskusage",
+            "Description": "磁盘使用率",
+            "Min": 0,
+            "Max": 100,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "%",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "CMONGO_REPLICA",
+            "MetricName": "HitRatio",
+            "Description": "cache命中率",
+            "Min": 0,
+            "Max": 100,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "%",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "CMONGO_REPLICA",
+            "MetricName": "Oplogreservedtime",
+            "Description": "oplog保存时间",
+            "Min": 0,
+            "Max": 10000,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "小时",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "CMONGO_REPLICA",
+            "MetricName": "SlaveDelay",
+            "Description": "主从单位时间内平均延迟",
+            "Min": 0,
+            "Max": 100000000,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "s",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        }
+    ],
+    "RequestId": "063d6d00-e376-4ccc-9876-0d18ef0fbe30"
+}

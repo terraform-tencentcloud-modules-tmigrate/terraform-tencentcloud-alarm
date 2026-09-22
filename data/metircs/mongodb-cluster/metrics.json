@@ -1,0 +1,937 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Inserts",
+            "Description": "写入请求次数",
+            "Min": 0,
+            "Max": 9999999,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "次",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Reads",
+            "Description": "读取请求次数",
+            "Min": 0,
+            "Max": 9999999,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "次",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Updates",
+            "Description": "更新请求次数",
+            "Min": 0,
+            "Max": 9999999,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "次",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Deletes",
+            "Description": "删除请求次数",
+            "Min": 0,
+            "Max": 9999999,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "次",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Counts",
+            "Description": "count请求次数",
+            "Min": 0,
+            "Max": 9999999,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "次",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Aggregates",
+            "Description": "聚合请求次数",
+            "Min": 0,
+            "Max": 9999999,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "次",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Success",
+            "Description": "成功请求次数",
+            "Min": 0,
+            "Max": 9999999,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "次",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "ClusterDiskusage",
+            "Description": "磁盘使用率",
+            "Min": 0,
+            "Max": 100,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "%",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Delay10",
+            "Description": "单位时间延迟次数(在10ms-50ms)",
+            "Min": 0,
+            "Max": 9999999,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "次",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Delay50",
+            "Description": "单位时间延迟次数(在50ms-100ms)",
+            "Min": 0,
+            "Max": 9999999,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "次",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Delay100",
+            "Description": "单位时间延迟次数(100ms以上)",
+            "Min": 0,
+            "Max": 9999999,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "次",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Connper",
+            "Description": "连接使用率",
+            "Min": 0,
+            "Max": 100,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "%",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Qps",
+            "Description": "每秒钟请求次数",
+            "Min": 0,
+            "Max": 10000000000,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "次/秒",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Commands",
+            "Description": "command请求次数",
+            "Min": 0,
+            "Max": 1000000000,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "Count",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "ClusterConn",
+            "Description": "连接数",
+            "Min": 0,
+            "Max": 10000000000,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "Count",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "Syncdelayseconds",
+            "Description": "只读/灾备实例同步延迟",
+            "Min": 0,
+            "Max": 9999999,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "s",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "day_increase",
+                    "day_decrease",
+                    "week_increase",
+                    "week_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave",
+                    "day_wave",
+                    "week_wave",
+                    "no_data"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "MonogdMaxCpuUsage",
+            "Description": "mongod节点cpu最大使用率",
+            "Min": 0,
+            "Max": 100,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "%",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "MongodMaxMemUsage",
+            "Description": "mongod节点内存最大使用率",
+            "Min": 0,
+            "Max": 100,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "%",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "MongosMaxMemUsage",
+            "Description": "mongos节点内存最大使用率",
+            "Min": 0,
+            "Max": 100,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "%",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        },
+        {
+            "Namespace": "cmongo_instance",
+            "MetricName": "MonogsMaxCpuUsage",
+            "Description": "mongos节点cpu最大使用率",
+            "Min": 0,
+            "Max": 100,
+            "Dimensions": [
+                "target"
+            ],
+            "Unit": "%",
+            "MetricConfig": {
+                "Operator": [
+                    "cycle_increase",
+                    "cycle_decrease",
+                    "gt",
+                    "ge",
+                    "lt",
+                    "le",
+                    "eq",
+                    "ne",
+                    "cycle_wave"
+                ],
+                "Period": [
+                    60,
+                    300
+                ],
+                "ContinuePeriod": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "IsAdvanced": 0,
+            "IsOpen": 0,
+            "ProductId": 0,
+            "Operators": [],
+            "Periods": null,
+            "IsLatenessMetric": 0
+        }
+    ],
+    "RequestId": "8b681997-9c00-4924-9ccf-871f6adea956"
+}
