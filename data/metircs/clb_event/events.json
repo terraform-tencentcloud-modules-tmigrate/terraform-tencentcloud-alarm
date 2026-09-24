@@ -1,0 +1,50 @@
+{
+    "Events": [
+        {
+            "EventName": "clb:CloudEvent:ApiCall",
+            "Description": "云API操作事件（基于云审计投递）",
+            "Namespace": "lb_lbid_lb"
+        },
+        {
+            "EventName": "clb:CloudEvent:MiniProgramCall",
+            "Description": "小程序操作事件（基于云审计投递）",
+            "Namespace": "lb_lbid_lb"
+        },
+        {
+            "EventName": "clb:ErrorEvent:ClbVipBlock",
+            "Description": "外网ip被封堵",
+            "Namespace": "lb_lbid_lb"
+        },
+        {
+            "EventName": "clb:CloudEvent:ConsoleCall",
+            "Description": "控制台操作事件（基于云审计投递）",
+            "Namespace": "lb_lbid_lb"
+        },
+        {
+            "EventName": "clb:ErrorEvent:BreakDown",
+            "Description": "负载均衡故障事件",
+            "Namespace": "lb_lbid_lb"
+        },
+        {
+            "EventName": "clb:ErrorEvent:ExecStart",
+            "Description": "负载均衡变更执行开始事件",
+            "Namespace": "lb_lbid_lb"
+        },
+        {
+            "EventName": "clb:ErrorEvent:ExecEnd",
+            "Description": "负载均衡变更执行结束事件",
+            "Namespace": "lb_lbid_lb"
+        },
+        {
+            "EventName": "clb:ErrorEvent:RollbackStart",
+            "Description": "负载均衡变更回滚开始事件",
+            "Namespace": "lb_lbid_lb"
+        },
+        {
+            "EventName": "clb:ErrorEvent:RollbackEnd",
+            "Description": "负载均衡变更回滚结束事件",
+            "Namespace": "lb_lbid_lb"
+        }
+    ],
+    "RequestId": "7c78c168-3d06-4484-aa65-d3e26aa0b8d8"
+}
